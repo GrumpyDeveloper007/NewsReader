@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="testdll">
+</Property><Property Name="Solution File" Value="D:\From C\coding\MyProjects\testdll\testdll.sln">
+</Property><Property Name="User Options File" Value="D:\From C\coding\MyProjects\testdll\testdll.suo">
+</Property><Property Name="Date" Value="24 October 2012">
+</Property><Property Name="Time" Value="PM 18:34">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="testdll.sln" Description="Error creating backup file: D:\From C\coding\MyProjects\testdll\testdll.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="testdll.suo" Description="Error creating backup file: D:\From C\coding\MyProjects\testdll\testdll.suo.old">
+</Event><Event ErrorLevel="0" Project="testdll" Source="testdll.vcproj" Description="Converting project file 'D:\From C\coding\MyProjects\testdll\testdll.vcproj'.">
+</Event><Event ErrorLevel="1" Project="testdll" Source="testdll.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="testdll" Source="testdll.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="testdll" Source="testdll.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="testdll" Source="testdll.vcproj" Description="MSB8012: $(TargetPath) ('D:\From C\coding\MyProjects\testdll\.\Release\testdll.dll') does not match the Linker's OutputFile property value '.\Release/testdll.dll' ('D:\From C\coding\MyProjects\testdll\Release/testdll.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testdll" Source="testdll.vcproj" Description="MSB8012: $(TargetPath) ('D:\From C\coding\MyProjects\testdll\.\Debug\testdll.dll') does not match the Linker's OutputFile property value 'Release/testdll.dll' ('D:\From C\coding\MyProjects\testdll\Release/testdll.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="testdll" Source="testdll.vcproj" Description="Done converting to new project file 'D:\From C\coding\MyProjects\testdll\testdll.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="testdll" Source="testdll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="testdll.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="testdll.sln" Description="Converted">
+</Event></UpgradeLog>

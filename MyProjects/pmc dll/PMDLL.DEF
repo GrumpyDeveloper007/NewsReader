@@ -1,0 +1,27 @@
+; pmdll.def : Declares the module parameters for the DLL.
+
+LIBRARY      PMDLL
+DESCRIPTION  'PMDLL Windows Dynamic Link Library'
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA	     PRELOAD SINGLE
+
+EXPORTS
+    ; Explicit exports can go here
+
+	VBCubeArrayDraw			@1
+	VBWalkerDraw			@2
+	VBAddCube				@3
+	VBDeleteAllCubes		@4
+	VBDrawObjecthDC			@5
+	VBSliceVectorSet		@6
+	VBSetOrigin				@7
+	VBSetScale				@8
+	VBOpenFile				@9
+	VBCloseFile				@10
+	VBReadChar				@11
+	VBEof					@12
+	VBEol					@13
+
+SECTIONS
+	DATA READ WRITE SHARED

@@ -1,0 +1,3 @@
+2002-06-13 Added Database view to projects- card logging, sinvoice, template, Inspection
+2002-07-24 Added Label printer screen
+2002-12-08 Added some more options to print preview form, now allows a cprinterClass to be passed in as a report,  this should allow any vb-written report to be shown in a preview window. However re-scaling is difficult.

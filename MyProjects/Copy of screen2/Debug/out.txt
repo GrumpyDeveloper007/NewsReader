@@ -1,0 +1,12 @@
+te:0
+Error Loading Texture (only 24bit uncompressed supported)
+te:1
+te:2
+te:3
+Opening Screen
+Screen opened.
+Init sliders
+screen cleared
+Init devices success
+Draw sliders
+opened console

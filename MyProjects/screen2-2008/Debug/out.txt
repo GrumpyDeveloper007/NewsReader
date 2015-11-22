@@ -1,0 +1,7 @@
+te:0
+Error Loading Texture (only 24bit uncompressed supported)
+te:1
+te:2
+te:3
+Opening Screen
+ERROR: Cannot Open 640x480 24/32 bit screen mode 

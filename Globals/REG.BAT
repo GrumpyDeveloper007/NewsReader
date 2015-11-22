@@ -1,0 +1,1 @@
+regsvr32 i:\barcode\setup\txtbox.ocx

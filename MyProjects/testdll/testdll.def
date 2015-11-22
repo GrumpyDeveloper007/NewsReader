@@ -1,0 +1,17 @@
+; pmdll.def : Declares the module parameters for the DLL.
+
+LIBRARY      testdll
+DESCRIPTION  'PyroDesign vbhelper Dynamic Link Library'
+
+
+EXPORTS
+    ; Explicit exports can go here
+
+	GetCRC2					@1
+	CopyTo					@2
+	CopyArray				@3
+	Base64  				@4
+	ReadLine				@5
+SECTIONS
+	SHARED
+	;READ WRITE 
