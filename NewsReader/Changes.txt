@@ -1,0 +1,3 @@
+24-09-2006 Fixed bug with files that have more than 410 articles
+25-09-2006 Fixed bug with not recognising .1xx filename extensions
+05-10-2006 Fixed article database compact util

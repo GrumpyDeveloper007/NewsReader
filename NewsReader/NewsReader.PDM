@@ -1,0 +1,139 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\coding\Package\NewsReader
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+NewsReader.mdb=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\coding\Globals\OCX\DateControl.ocx=
+C:\WINNT\system32\Flp32a30.ocx=
+C:\WINNT\system32\TxtBox.ocx=
+C:\Program Files\Common Files\System\ado\msado26.tlb=
+C:\coding\NewsReader\yDecLib.dll=
+C:\coding\Globals\OCX\TxtBox.ocx=
+C:\Program Files\Common Files\System\ado\msjro.dll=
+C:\WINNT\system32\DateControl.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\comdlg32.ocx=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\winnt\system32\scrrun.dll=
+c:\program files\common files\system\ado\msjro.dll=
+c:\program files\common files\system\ado\msado26.tlb=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\coding\NewsReader\NewReader.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\coding\MyProjects\testdll\Release\testdll.dll=Yes
+C:\Program Files\Common Files\System\ado\msado26.tlb=No
+C:\WINNT\system32\scrrun.dll=No
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\Flp32a30.ocx=Yes
+C:\WINNT\system32\MSCHRT20.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\Mswinsck.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\System\ado\msjro.dll=No
+C:\WINNT\system32\TxtBox.ocx=Yes
+C:\WINNT\system32\DateControl.ocx=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\coding\NewsReader\NewReader.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\coding\NewsReader\yDecLib.dll=$(WinSysPath)
+C:\coding\MyProjects\testdll\Release\testdll.dll=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado26.tlb=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\TxtBox.ocx=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\Flp32a30.ocx=$(WinSysPath)
+C:\coding\Globals\OCX\DateControl.ocx=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\Mswinsck.ocx=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\coding\Globals\OCX\TxtBox.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\coding\NewsReader\NewsReader.mdb=$(AppPath)
+C:\WINNT\system32\DateControl.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\coding\NewsReader\NewReader.exe=No
+C:\coding\MyProjects\testdll\Release\testdll.dll=No
+C:\coding\NewsReader\NewsReader.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=NewsReader
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\coding\Package\NewsReader
+ProjectFolder=C:\coding\NewsReader
+ServerSideCab=
+File1=C:\coding\Package\NewsReader\setup.exe
+File2=C:\coding\Package\NewsReader\Setup.Lst
+File3=C:\coding\Package\NewsReader\NewReader.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=NewsReader
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|NewsReader]
+Icon1=NewReader.exe
+Title1=NewsReader
+StartIn1=$(AppPath)
+Key1=Icon1
